@@ -136,3 +136,25 @@ pip install -r requirements.txt
 # Use this command to train the model and save new weights
 python -m src.run_pipeline --force-train
 ```
+
+## Step 5: Visual Analysis (Jupyter Notebook)
+
+After the pipeline has been run at least once (and the `best_model_weights.pth` and `train_history.json` files exist), you can run the visual presentation.
+
+This notebook is designed to load the trained model and artifacts to perform a deep-dive analysis, including EDA, metric visualization, and Grad-CAM.
+
+### 1. Start the Jupyter Server
+In your terminal (from the project's root directory), run:
+
+```bash
+jupyter notebook
+```
+
+If your browser does not open automatically, the console will display an address to copy. 
+```bash
+http://localhost:8888/?token=... (a very long string of characters)
+```
+1. Copy one of these links — the entire URL, including `?token=...`  
+2. Paste it into your browser's address bar and press Enter.  
+
+This will open the Jupyter dashboard. From there, you can click the `src` folder, and then open the file `presentation_notebook.ipynb`.
