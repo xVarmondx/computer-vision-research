@@ -1,6 +1,6 @@
 import torch
 
-DATA_PATH = "../dataset"
+DATA_PATH = "dataset"
 MODEL_PATH = "best_model_weights.pth"
 
 BATCH_SIZE = 32
