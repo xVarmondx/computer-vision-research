@@ -1,7 +1,7 @@
-# 👁️‍🗨️ Klasyfikacja Rysunków Odręcznych (ResNet-18 + XAI)
+# 👁️‍🗨️ Hand-Drawn Image Classification (ResNet-18 + XAI)
 
 <p align="center"> 
-  <strong>Modularny Pipeline Computer Vision do klasyfikacji symboli, z zaawansowaną analizą Grad-CAM.</strong> 
+  <strong>Modular Computer Vision Pipeline for symbol classification, with advanced Grad-CAM analysis.</strong> 
 </p>
 
 <p align="center"> 
